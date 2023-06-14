@@ -6,7 +6,7 @@ const DISP_OFFSET: (i32, i32) = (52, 24);
 
 const RADIUS: i32 = 16;
 const CAM_DIST: i32 = RADIUS * 3;
-const PROJECTION_DIST: i32 = CAM_DIST - RADIUS >> 1;
+const PROJECTION_DIST: i32 = CAM_DIST - RADIUS;
 
 fn main() {
     let cube_points_0 = initialize_points(RADIUS);
